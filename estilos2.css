@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.contenedor {
+    display: flex;
+    flex-direction:row-reverse;
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+}
+.cajas {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
