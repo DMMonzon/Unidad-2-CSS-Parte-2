@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(104, 142, 247);
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(185, 51, 51, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(183, 219, 21, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+footer {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    color: thistle;
+    font-size: 14px;
+    bottom: 0px;
+}
+.nav {
+    background: #45484d;
+  background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+  background: -webkit-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+  background: linear-gradient(135deg, #45484d 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+}
+.nav-item {
+    margin: 10px 5px;
+    color: white;
+}
+i {
+    margin: 15px 5px;
+    color:rgb(192, 252, 207);
+} 
+.card-header {
+    font-family: "Roboto", Geneva;
+    color: mediumvioletred;
+}
+.card-text {
+  transition: all 1.0s ease;
+}
+.card-text:hover {
+  color:mediumvioletred;
+}
+.card {
+    background-color: white;
+    max-width: 750px;
+    min-width: 150px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+}
+form {
+    width: 300px;
+    min-width: 100px;
+    margin: 20px auto 10px auto;
+}
+.blur {
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  margin-top: 10px;
+}
+.img-fluid {
+  transition: all 0.5s ease;
+}
+.img-fluid:hover {
+  transform: scale3d(-1, 1, 1);
+}
+#icono {
+  margin: 0px 5px 0px 0px;
+  color: rgb(75, 92, 240);
+}
+#icono_mail {
+  margin: 0px 10px 5px 0px;
+  color: white;
+}
